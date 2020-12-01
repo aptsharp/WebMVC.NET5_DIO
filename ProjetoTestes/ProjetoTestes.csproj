@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebAPI\WebAPI.csproj" />
+    <ProjectReference Include="..\WebMVC.NET5_DIO\WebMVC.NET5_DIO.csproj" />
+  </ItemGroup>
+
 </Project>
